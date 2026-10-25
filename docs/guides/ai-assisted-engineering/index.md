@@ -5,7 +5,7 @@
 AI can accelerate exploration, planning, boilerplate, debugging and code review. It cannot replace a clearly understood requirement, bounded tool permissions or independently observed test evidence. This module teaches a repeatable **Plan–Build–Review (PBR)** practice and explains how to use an **Agentic Development Environment (ADE)** responsibly.
 
 ::: info Scope
-All examples use synthetic JSON, services and repositories. Product and assessment environments differ in their execution and assistance capabilities; the methods here are not instructions for any particular interview or platform. Always follow the applicable rules and only use assistance or tools that are explicitly allowed in the environment.
+All examples use synthetic JSON, services and repositories. Product and assessment environments differ in their execution and assistance capabilities; the methods here are not instructions for any particular engineering exercise or platform. Always follow the applicable rules and only use assistance or tools that are explicitly allowed in the environment.
 :::
 
 ## Prerequisites
