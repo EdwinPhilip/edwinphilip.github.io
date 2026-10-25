@@ -20,7 +20,8 @@ export default withMermaid(defineConfig({
       { text: 'About & Experience', link: '/about' },
       { text: 'Knowledge Base', link: '/guides/' },
       { text: 'Networking', link: '/guides/networking/' },
-      { text: 'Linux Internals', link: '/guides/linux-internals/' }
+      { text: 'Linux Internals', link: '/guides/linux-internals/' },
+      { text: 'Kubernetes', link: '/guides/kubernetes/' }
     ],
     sidebar: {
       '/guides/networking/': [
@@ -50,11 +51,31 @@ export default withMermaid(defineConfig({
           { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' }
         ] }
       ],
+      '/guides/kubernetes/': [
+        { text: 'Kubernetes Architecture & Operations', link: '/guides/kubernetes/' },
+        { text: 'Complete Module 3', items: [
+          { text: '1. Architecture', link: '/guides/kubernetes/q1' },
+          { text: '2. Deployment lifecycle', link: '/guides/kubernetes/q2' },
+          { text: '3. etcd and Raft', link: '/guides/kubernetes/q3' },
+          { text: '4. Controllers and operators', link: '/guides/kubernetes/q4' },
+          { text: '5. Scheduler', link: '/guides/kubernetes/q5' },
+          { text: '6. Workload controllers', link: '/guides/kubernetes/q6' },
+          { text: '7. Resources and QoS', link: '/guides/kubernetes/q7' },
+          { text: '8. Probes and lifecycle', link: '/guides/kubernetes/q8' },
+          { text: '9. CSI and storage', link: '/guides/kubernetes/q9' },
+          { text: '10. Autoscaling', link: '/guides/kubernetes/q10' },
+          { text: '11. Security and admission', link: '/guides/kubernetes/q11' },
+          { text: '12. Upgrades and troubleshooting', link: '/guides/kubernetes/q12' },
+          { text: 'Hands-on labs', link: '/guides/kubernetes/labs' },
+          { text: '42 difficult follow-ups', link: '/guides/kubernetes/follow-ups' }
+        ] }
+      ],
       '/guides/': [
         { text: 'Learning Guides', items: [
           { text: 'All guides', link: '/guides/' },
           { text: 'Networking Fundamentals', link: '/guides/networking/' },
-          { text: 'Linux Internals', link: '/guides/linux-internals/' }
+          { text: 'Linux Internals', link: '/guides/linux-internals/' },
+          { text: 'Kubernetes Architecture', link: '/guides/kubernetes/' }
         ] }
       ]
     },
