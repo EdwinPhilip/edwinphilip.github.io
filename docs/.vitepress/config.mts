@@ -17,9 +17,12 @@ export default withMermaid(defineConfig({
     siteTitle: 'Edwin Philip',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About me', link: '/about' },
-      { text: 'GitHub', link: 'https://github.com/EdwinPhilip' },
-      { text: 'LinkedIn', link: 'https://www.linkedin.com/in/edwin-philip-sudo/' }
+      { text: 'Guides', link: '/guides/' },
+      { text: 'About me', link: '/about' }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/EdwinPhilip', ariaLabel: 'GitHub profile' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/edwin-philip-sudo/', ariaLabel: 'LinkedIn profile' }
     ],
     sidebar: {
       '/guides/': [
