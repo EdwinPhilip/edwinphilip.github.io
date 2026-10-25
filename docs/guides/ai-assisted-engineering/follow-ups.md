@@ -1,4 +1,4 @@
-# Module 10. 40 Challenging Questions on ADE and Plan–Build–Review
+# 40 Advanced Technical FAQs: ADE and Plan–Build–Review
 
 These questions focus on responsibility, problem solving, implementation evidence and independent review. Try answering aloud before reading the full model response.
 
