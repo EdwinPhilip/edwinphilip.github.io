@@ -46,8 +46,12 @@ Six consolidated chapters covering Python collections, JSON/log/CSV parsing, UTC
 
 Eight in-depth chapters on interpreting coding requirements, planning, bounded agent changes, independent verification, multi-file engineering and evidence-based handoffs. Includes [eight labs](/guides/ai-assisted-engineering/labs) and [40 advanced FAQs](/guides/ai-assisted-engineering/follow-ups).
 
+### [Jenkins Architecture, Pipelines & Production Operations · Module 11](/guides/jenkins/)
+
+Ten in-depth chapters on Jenkins controller/agent architecture, Declarative and Scripted Pipelines, Multibranch SCM integration, dynamic Kubernetes agents, Docker builds and caching, Shared Libraries, credentials and supply-chain security, stateful controller recovery, production troubleshooting and CI platform governance. Includes [eight hands-on labs](/guides/jenkins/labs) and [47 advanced FAQs](/guides/jenkins/follow-ups).
+
 ## Learning path
 
-Modules 1–10 cover networking, Linux, Kubernetes, infrastructure as code, cloud platforms, reliability, platform engineering, automation and responsible AI-assisted development.
+Modules 1–11 cover networking, Linux, Kubernetes, infrastructure as code, cloud platforms, reliability, platform engineering, automation, responsible AI-assisted development and reliable Jenkins CI infrastructure.
 
 [About the author](/about)
