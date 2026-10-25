@@ -204,4 +204,4 @@ Describe what to check first in each failure path, how to prevent uncontrolled r
 - Upgrade with version/channel policy, headroom and app compatibility.
 - Defend regional DR with data correctness and controlled failover.
 
-[← Module 6 index](./) · [40 challenging follow-ups](./follow-ups)
+[← Module 6 index](./) · [40 advanced technical FAQs](./follow-ups)

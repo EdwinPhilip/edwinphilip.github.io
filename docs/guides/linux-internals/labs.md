@@ -79,4 +79,4 @@ Then pick a single bottleneck hypothesis and specify which focused data would fa
 | Disk full, `du` much smaller | Open deleted files, quotas, mounts | All space is in visible files |
 | EMFILE | FD count, process limits, sockets | TIME_WAIT equals leaked FDs |
 
-[← Module overview](./) · [35 challenging follow-ups](./follow-ups)
+[← Module overview](./) · [35 advanced technical FAQs](./follow-ups)

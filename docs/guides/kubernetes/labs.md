@@ -93,4 +93,4 @@ The invoking identity requires impersonation permission for this test. In a sand
 
 For every exercise, capture the intended state, observed state, relevant events, supporting command output and a safe recovery step. Explain which component owns the failure boundary. Avoid publishing real hostnames, tokens, Secrets or sensitive logs.
 
-[Return to module index](./) · [42 difficult follow-ups](./follow-ups)
+[Return to module index](./) · [42 advanced technical FAQs](./follow-ups)

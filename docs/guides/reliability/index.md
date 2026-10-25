@@ -34,7 +34,7 @@ Linux and container fundamentals; networking and TLS; Kubernetes workloads and s
 
 ## Practice and sequence
 
-Read Q1-Q2 to define what must work, Q3-Q4 to preserve behavior under partial failure, Q5-Q7 to build resilient infrastructure/data paths, and Q8 to practice operating the design. Then complete [seven labs](./labs) and rehearse [40 challenging follow-ups with model answers](./follow-ups).
+Read Q1-Q2 to define what must work, Q3-Q4 to preserve behavior under partial failure, Q5-Q7 to build resilient infrastructure/data paths, and Q8 to practice operating the design. Then complete [seven labs](./labs) and rehearse [40 advanced technical FAQs](./follow-ups).
 
 ## Authoritative references
 

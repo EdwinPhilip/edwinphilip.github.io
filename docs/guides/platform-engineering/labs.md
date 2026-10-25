@@ -97,4 +97,4 @@ kubectl auth can-i create deployments -n marketplace
 
 For every lab write down the trust boundary, desired behavior, observables, failure mode, stop condition and recovery procedure. Distinguish **pipeline success**, **GitOps reconciliation** and **correct customer/developer outcome**.
 
-[Module 8 index](./) · [40 challenging follow-ups](./follow-ups)
+[Module 8 index](./) · [40 advanced technical FAQs](./follow-ups)

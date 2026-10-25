@@ -34,9 +34,9 @@ Familiarity with Linux and TCP/IP, service deployment and a basic cloud model. K
 7. [Observability, SLOs and incident diagnosis](./q7): Metrics, logs, traces, audit evidence, percentile and burn-rate reasoning.
 8. [Architecture, security, DR and costs](./q8): Hypothetical marketplace design, failure domains, regional incident, trade-offs.
 
-## Interview and hands-on practice
+## engineering reference and hands-on practice
 
-- [40 difficult interviewer follow-ups with complete model answers](./follow-ups)
+- [40 advanced technical FAQs](./follow-ups)
 - [Eight hands-on and tabletop labs, including expected observations and safety controls](./labs)
 
 ## Study order

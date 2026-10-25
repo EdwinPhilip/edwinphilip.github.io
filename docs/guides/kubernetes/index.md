@@ -34,7 +34,7 @@ By the end, you should be able to trace a Deployment through admission, etcd, co
 ## Practice
 
 - [Six hands-on labs with commands, expected behavior and safety notes](./labs)
-- [42 challenging interview follow-ups with complete model answers](./follow-ups)
+- [42 advanced technical FAQs](./follow-ups)
 
 ## Recommended learning sequence
 

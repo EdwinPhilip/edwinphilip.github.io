@@ -52,12 +52,12 @@ After completing the guide, you should be able to:
 
 ## Practice
 
-- [40 challenging technical follow-ups with complete model answers](./follow-ups)
+- [40 advanced technical FAQs](./follow-ups)
 - [Eight labs and tabletop exercises with expected observations and safety notes](./labs)
 
 ## Recommended study sequence
 
-Study Q1–Q2 for architecture, scheduling and node operations. Q3–Q4 build packet-by-packet intuition from internal Pod routing to external client load balancing. Q5–Q6 cover identities, security and storage, then Q7–Q8 connect autoscaling and upgrades to measurable reliability. Finish by explaining each lab incident aloud before opening the model answers.
+Study Q1–Q2 for architecture, scheduling and node operations. Q3–Q4 build packet-by-packet intuition from internal Pod routing to external client load balancing. Q5–Q6 cover identities, security and storage, then Q7–Q8 connect autoscaling and upgrades to measurable reliability. Finish by explaining each lab incident aloud before opening the detailed explanations.
 
 ## Verified reference documentation
 

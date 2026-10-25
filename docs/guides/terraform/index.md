@@ -56,9 +56,9 @@ By completing the guide, you should be able to:
 12. [Enterprise Terraform platform and incident response](./q12)  
     Platform APIs, ownership, risk and production network recovery.
 
-## Interview preparation and practice
+## technical learning and practice
 
-- [All 45 challenging follow-up questions and complete model answers](./follow-ups)
+- [45 advanced technical FAQs](./follow-ups)
 - [Eight hands-on and tabletop labs](./labs)
 
 ## Recommended learning sequence

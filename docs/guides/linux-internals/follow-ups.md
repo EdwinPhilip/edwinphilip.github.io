@@ -1,6 +1,6 @@
-# Senior Linux Interview Follow-ups — 35 Model Answers
+# Linux Internals · 35 Advanced Technical FAQs
 
-Practice these after completing the seven chapters. Revealable questions from the original workbook are presented here as complete, readable model answers. These are generic engineering exercises, not employer-specific interview questions.
+Practice these after completing the seven chapters. Revealable questions from the original workbook are presented here as complete, readable detailed explanations. These are generic engineering exercises, not employer-specific technical questions.
 
 ## 1. Does fork() immediately copy the parent&#x27;s entire memory into the child?
 

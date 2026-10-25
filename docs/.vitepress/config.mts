@@ -54,7 +54,7 @@ export default withMermaid(defineConfig({
             { text: '7. Incident investigation', link: '/guides/linux-internals/q7' },
           ] },
           { text: 'Hands-on labs', link: '/guides/linux-internals/labs' },
-          { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/linux-internals/follow-ups' },
         ] },
         { text: 'Module 3 · Kubernetes Architecture', link: '/guides/kubernetes/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/kubernetes/' },
@@ -73,7 +73,7 @@ export default withMermaid(defineConfig({
             { text: '12. Upgrades and troubleshooting', link: '/guides/kubernetes/q12' },
           ] },
           { text: 'Hands-on labs', link: '/guides/kubernetes/labs' },
-          { text: '42 difficult follow-ups', link: '/guides/kubernetes/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/kubernetes/follow-ups' },
         ] },
         { text: 'Module 4 · Terraform', link: '/guides/terraform/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/terraform/' },
@@ -92,7 +92,7 @@ export default withMermaid(defineConfig({
             { text: '12. Enterprise platform design', link: '/guides/terraform/q12' },
           ] },
           { text: 'Hands-on labs', link: '/guides/terraform/labs' },
-          { text: '45 difficult follow-ups', link: '/guides/terraform/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/terraform/follow-ups' },
         ] },
         { text: 'Module 5 · Google Cloud', link: '/guides/gcp/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/gcp/' },
@@ -107,7 +107,7 @@ export default withMermaid(defineConfig({
             { text: '8. Architecture and recovery', link: '/guides/gcp/q8' },
           ] },
           { text: 'Hands-on labs', link: '/guides/gcp/labs' },
-          { text: '40 challenging follow-ups', link: '/guides/gcp/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/gcp/follow-ups' },
         ] },
         { text: 'Module 6 · GKE Operations', link: '/guides/gke/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/gke/' },
@@ -122,7 +122,7 @@ export default withMermaid(defineConfig({
             { text: '8. Upgrades and incidents', link: '/guides/gke/q8' },
           ] },
           { text: 'Hands-on labs', link: '/guides/gke/labs' },
-          { text: '40 challenging follow-ups', link: '/guides/gke/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/gke/follow-ups' },
         ] },
         { text: 'Module 7 · Cloud Reliability', link: '/guides/reliability/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/reliability/' },
@@ -137,7 +137,7 @@ export default withMermaid(defineConfig({
             { text: '8. Incident command and game days', link: '/guides/reliability/q8' },
           ] },
           { text: 'Seven hands-on labs', link: '/guides/reliability/labs' },
-          { text: '40 difficult follow-ups', link: '/guides/reliability/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/reliability/follow-ups' },
         ] },
         { text: 'Module 8 · Platform Engineering', link: '/guides/platform-engineering/', collapsed: true, items: [
           { text: 'Overview', link: '/guides/platform-engineering/' },
@@ -152,7 +152,7 @@ export default withMermaid(defineConfig({
             { text: '8. Multi-cluster governance', link: '/guides/platform-engineering/q8' },
           ] },
           { text: 'Eight hands-on labs', link: '/guides/platform-engineering/labs' },
-          { text: '40 difficult follow-ups', link: '/guides/platform-engineering/follow-ups' },
+          { text: 'Advanced FAQs', link: '/guides/platform-engineering/follow-ups' },
         ] },
       ]
     },

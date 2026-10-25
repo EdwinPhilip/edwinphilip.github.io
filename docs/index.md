@@ -57,7 +57,7 @@ I hold **CKA** and **CKAD** certifications and have an academic background in **
 
 ## What you'll find here
 
-This site is both a professional portfolio and a **public engineering knowledge base**. The guides are intentionally written for general learning, with diagrams, practical commands, failure scenarios and interview-style questions.
+This site is both a professional portfolio and a **public engineering knowledge base**. The guides are intentionally written for general learning, with diagrams, practical commands, failure scenarios, hands-on exercises and technical FAQs.
 
 **Start with [Networking Fundamentals](/guides/networking/)**, an eight-part guide covering everything from browser requests and TLS to cloud networking, Kubernetes and production troubleshooting.
 
