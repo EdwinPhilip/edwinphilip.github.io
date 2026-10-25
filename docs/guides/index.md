@@ -22,8 +22,12 @@ Twelve in-depth chapters covering Kubernetes control-plane internals, etcd, sche
 
 Twelve in-depth chapters covering Terraform execution, state, modules, AWS/GCP infrastructure, cloud identity, import/refactoring, drift recovery, security and CI/CD. Includes [45 senior follow-ups](/guides/terraform/follow-ups) and [eight labs](/guides/terraform/labs).
 
+### [Google Cloud Fundamentals and Production Engineering · Module 5](/guides/gcp/)
+
+Eight comprehensive chapters covering GCP hierarchy, identity and federation, Shared VPC, NAT/DNS/load balancing, Compute Engine, storage/data, observability, and high-availability architecture. Includes [eight practical labs](/guides/gcp/labs) and [40 senior follow-ups](/guides/gcp/follow-ups).
+
 ## Planned
 
-GCP, GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
+GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
 
 [About the author](/about)
