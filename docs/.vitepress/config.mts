@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'Edwin Philip',
   description: 'Engineering leadership, platform engineering and public learning notes',
   base: '/knowledge-base/',
@@ -18,7 +19,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About & Experience', link: '/about' },
       { text: 'Knowledge Base', link: '/guides/' },
-      { text: 'Networking', link: '/guides/networking/' }
+      { text: 'Networking', link: '/guides/networking/' },
+      { text: 'Linux Internals', link: '/guides/linux-internals/' }
     ],
     sidebar: {
       '/guides/networking/': [
@@ -34,10 +36,25 @@ export default defineConfig({
           { text: '8. Production troubleshooting', link: '/guides/networking/q8' },
         ] }
       ],
+      '/guides/linux-internals/': [
+        { text: 'Linux Internals', link: '/guides/linux-internals/' },
+        { text: 'Complete Module 2', items: [
+          { text: '1. Processes & scheduling', link: '/guides/linux-internals/q1' },
+          { text: '2. Virtual memory', link: '/guides/linux-internals/q2' },
+          { text: '3. Cgroups & OOM', link: '/guides/linux-internals/q3' },
+          { text: '4. CPU quotas & PSI', link: '/guides/linux-internals/q4' },
+          { text: '5. Storage & durability', link: '/guides/linux-internals/q5' },
+          { text: '6. File descriptors & epoll', link: '/guides/linux-internals/q6' },
+          { text: '7. Incident investigation', link: '/guides/linux-internals/q7' },
+          { text: 'Hands-on labs', link: '/guides/linux-internals/labs' },
+          { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' }
+        ] }
+      ],
       '/guides/': [
         { text: 'Learning Guides', items: [
           { text: 'All guides', link: '/guides/' },
-          { text: 'Networking Fundamentals', link: '/guides/networking/' }
+          { text: 'Networking Fundamentals', link: '/guides/networking/' },
+          { text: 'Linux Internals', link: '/guides/linux-internals/' }
         ] }
       ]
     },
@@ -50,4 +67,4 @@ export default defineConfig({
     editLink: { pattern: 'https://github.com/EdwinPhilip/knowledge-base/edit/main/docs/:path', text: 'Suggest an improvement' },
     outline: { level: [2, 3] }
   }
-})
+}))
