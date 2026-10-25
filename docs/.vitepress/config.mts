@@ -22,7 +22,8 @@ export default withMermaid(defineConfig({
       { text: 'Networking', link: '/guides/networking/' },
       { text: 'Linux Internals', link: '/guides/linux-internals/' },
       { text: 'Kubernetes', link: '/guides/kubernetes/' },
-      { text: 'Terraform', link: '/guides/terraform/' }
+      { text: 'Terraform', link: '/guides/terraform/' },
+      { text: 'GCP Fundamentals', link: '/guides/gcp/' }
     ],
     sidebar: {
       '/guides/networking/': [
@@ -90,13 +91,29 @@ export default withMermaid(defineConfig({
           { text: '45 difficult follow-ups', link: '/guides/terraform/follow-ups' }
         ] }
       ],
+      '/guides/gcp/': [
+        { text: 'GCP Fundamentals and Production Engineering', link: '/guides/gcp/' },
+        { text: 'Complete Module 5', items: [
+          { text: '1. Resource hierarchy', link: '/guides/gcp/q1' },
+          { text: '2. IAM and workload identity', link: '/guides/gcp/q2' },
+          { text: '3. VPC, Shared VPC and firewall', link: '/guides/gcp/q3' },
+          { text: '4. NAT, DNS and load balancing', link: '/guides/gcp/q4' },
+          { text: '5. Compute Engine and MIGs', link: '/guides/gcp/q5' },
+          { text: '6. Storage, artifacts and data', link: '/guides/gcp/q6' },
+          { text: '7. Observability and SLOs', link: '/guides/gcp/q7' },
+          { text: '8. Architecture and recovery', link: '/guides/gcp/q8' },
+          { text: 'Hands-on labs', link: '/guides/gcp/labs' },
+          { text: '40 challenging follow-ups', link: '/guides/gcp/follow-ups' }
+        ] }
+      ],
       '/guides/': [
         { text: 'Learning Guides', items: [
           { text: 'All guides', link: '/guides/' },
           { text: 'Networking Fundamentals', link: '/guides/networking/' },
           { text: 'Linux Internals', link: '/guides/linux-internals/' },
           { text: 'Kubernetes Architecture', link: '/guides/kubernetes/' },
-          { text: 'Terraform Architecture', link: '/guides/terraform/' }
+          { text: 'Terraform Architecture', link: '/guides/terraform/' },
+          { text: 'GCP Fundamentals', link: '/guides/gcp/' }
         ] }
       ]
     },
