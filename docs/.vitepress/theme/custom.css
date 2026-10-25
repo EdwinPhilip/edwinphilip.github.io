@@ -10,3 +10,84 @@
 .VPHome .VPHero .tagline { max-width: 760px; font-size: 18px; line-height: 1.6; }
 .vp-doc blockquote { border-left-color: var(--vp-c-brand-1); }
 .vp-doc table { display: table; width: 100%; }
+
+
+/*
+ * Header navigation
+ *
+ * Keep three primary destinations in a compact, balanced pill. Let VitePress
+ * render GitHub and LinkedIn as accessible social icon links beside the theme
+ * toggle. Mobile continues to use VitePress's built-in navigation screen.
+ */
+@media (min-width: 960px) {
+  .VPNavBar .VPNavBarMenu {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 44px;
+    margin-right: 10px;
+    padding: 4px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 999px;
+    background: var(--vp-c-bg-soft);
+  }
+
+  .VPNavBar .VPNavBarMenuLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    padding: 0 15px;
+    border: 0;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .VPNavBar .VPNavBarMenuLink .text {
+    line-height: 34px;
+    font-weight: 500;
+  }
+
+  .VPNavBar .VPNavBarMenuLink:hover {
+    background: var(--vp-c-bg-elv);
+  }
+
+  .VPNavBar .VPNavBarMenuLink:hover .text,
+  .VPNavBar .VPNavBarMenuLink.active .text {
+    color: var(--vp-c-brand-1);
+  }
+
+  .VPNavBar .VPNavBarMenuLink.active {
+    background: var(--vp-c-brand-soft);
+  }
+
+  .VPNavBar .VPNavBarSocialLinks {
+    margin-left: 4px;
+    padding-left: 12px;
+    border-left: 1px solid var(--vp-c-divider);
+  }
+
+  .VPNavBar .VPNavBarSocialLinks a {
+    border-radius: 10px;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .VPNavBar .VPNavBarSocialLinks a:hover {
+    color: var(--vp-c-brand-1);
+    background: var(--vp-c-bg-soft);
+  }
+}
+
+.VPNavBar .VPNavBarMenuLink:focus-visible,
+.VPNavBar .VPNavBarSocialLinks a:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPNavBar .VPNavBarMenuLink,
+  .VPNavBar .VPNavBarSocialLinks a {
+    transition: none;
+  }
+}
