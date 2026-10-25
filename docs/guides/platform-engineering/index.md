@@ -34,7 +34,7 @@ Git, CI basics, containers, Kubernetes workload lifecycle, networking, IAM funda
 
 ## Practice and sequence
 
-Begin with Q1-Q4 to establish the trusted delivery chain; continue with Q5-Q6 for security and developer experience; finish with Q7-Q8 for operating a platform as a product. Work through [eight labs](./labs) and [40 difficult follow-up questions with complete answers](./follow-ups).
+Begin with Q1-Q4 to establish the trusted delivery chain; continue with Q5-Q6 for security and developer experience; finish with Q7-Q8 for operating a platform as a product. Work through [eight labs](./labs) and [40 advanced technical FAQs](./follow-ups).
 
 ## Authoritative references
 

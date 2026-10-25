@@ -15,7 +15,7 @@ Follow the complete journey of a request from a browser to an application, then 
 7. [Kubernetes and GKE networking](./q7)
 8. [Production troubleshooting](./q8)
 
-Each chapter includes first principles, packet or control flows, configuration and diagnostic examples, production-style incidents and interviewer follow-ups.
+Each chapter includes first principles, packet or control flows, configuration and diagnostic examples, production-style incidents and technical FAQs.
 
 ### How to study
 

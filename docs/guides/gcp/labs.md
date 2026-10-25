@@ -195,4 +195,4 @@ Answer in order:
 - Define a measurable event-based SLO and error budget.
 - Demonstrate a safe regional recovery decision, including data correctness.
 
-[← Module 5](./) · [40 follow-up questions](./follow-ups)
+[← Module 5](./) · [40 advanced technical FAQs](./follow-ups)

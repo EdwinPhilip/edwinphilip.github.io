@@ -32,9 +32,9 @@ By the end, you should be able to explain the process and scheduler lifecycle; v
 
 [Five reproducible Linux systems labs](./labs) — CPU throttling, memory, sockets, durability and incident diagnosis.
 
-## Interview challenge bank
+## technical review exercises
 
-[35 difficult follow-up questions with complete model answers](./follow-ups)
+[35 advanced technical FAQs](./follow-ups)
 
 Practice explaining each kernel mechanism, its observable symptoms, the commands that prove it, and the safer mitigation. Avoid interpreting a single utilization percentage as proof of saturation.
 

@@ -173,4 +173,4 @@ Work through: freeze writes, capture state backup, identify effective routes, ve
 - Can recover logically from a timed-out provider call without duplicate creation.
 - Can defend why Terraform and GitOps have separate ownership.
 
-[← Terraform module](./) · [45 follow-up questions](./follow-ups)
+[← Terraform module](./) · [45 advanced technical FAQs](./follow-ups)

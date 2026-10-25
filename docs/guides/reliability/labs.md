@@ -85,4 +85,4 @@ kubectl get endpointslices -n marketplace
 
 For each exercise record: **fault hypothesis, measurement plan, observed evidence, impact, containment, recovery, follow-up and safety boundary**. Do not accept a green infrastructure status as proof that a user transaction is correct.
 
-[Module 7 index](./) · [40 challenging follow-ups](./follow-ups)
+[Module 7 index](./) · [40 advanced technical FAQs](./follow-ups)
