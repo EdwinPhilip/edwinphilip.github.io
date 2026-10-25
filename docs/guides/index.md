@@ -14,8 +14,12 @@ Eight chapters covering complete requests, TCP, DNS, TLS, load balancing, CIDR/N
 
 Seven in-depth chapters on processes, virtual memory, cgroups and OOM, CPU throttling, storage/durability, file descriptors, and Linux incident response; includes [35 challenging follow-ups](/guides/linux-internals/follow-ups).
 
+### [Kubernetes Architecture & Production Operations — Module 3](/guides/kubernetes/)
+
+Twelve in-depth chapters covering Kubernetes control-plane internals, etcd, scheduler, controllers, workload lifecycles, resources and QoS, storage/CSI, autoscaling, RBAC, admission and upgrades; includes [six labs](/guides/kubernetes/labs) and [42 challenging follow-ups](/guides/kubernetes/follow-ups).
+
 ## Planned
 
-Kubernetes architecture, Terraform, GCP, GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
+Terraform, GCP, GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
 
 [About the author](/about)
