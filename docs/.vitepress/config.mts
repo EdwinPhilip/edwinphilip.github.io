@@ -23,7 +23,9 @@ export default withMermaid(defineConfig({
       { text: 'Linux Internals', link: '/guides/linux-internals/' },
       { text: 'Kubernetes', link: '/guides/kubernetes/' },
       { text: 'Terraform', link: '/guides/terraform/' },
-      { text: 'GCP Fundamentals', link: '/guides/gcp/' }
+      { text: 'GCP Fundamentals', link: '/guides/gcp/' },
+          { text: 'GKE Architecture', link: '/guides/gke/' },
+      { text: 'GKE Operations', link: '/guides/gke/' }
     ],
     sidebar: {
       '/guides/networking/': [
@@ -104,6 +106,21 @@ export default withMermaid(defineConfig({
           { text: '8. Architecture and recovery', link: '/guides/gcp/q8' },
           { text: 'Hands-on labs', link: '/guides/gcp/labs' },
           { text: '40 challenging follow-ups', link: '/guides/gcp/follow-ups' }
+        ] }
+      ],
+      '/guides/gke/': [
+        { text: 'GKE Architecture & Production Operations', link: '/guides/gke/' },
+        { text: 'Complete Module 6', items: [
+          { text: '1. Architecture and control plane', link: '/guides/gke/q1' },
+          { text: '2. Node pools and scheduling', link: '/guides/gke/q2' },
+          { text: '3. VPC-native networking', link: '/guides/gke/q3' },
+          { text: '4. Ingress, Gateway and NEGs', link: '/guides/gke/q4' },
+          { text: '5. Security and workload identity', link: '/guides/gke/q5' },
+          { text: '6. CSI storage and StatefulSets', link: '/guides/gke/q6' },
+          { text: '7. Autoscaling and QoS', link: '/guides/gke/q7' },
+          { text: '8. Upgrades and incidents', link: '/guides/gke/q8' },
+          { text: 'Hands-on labs', link: '/guides/gke/labs' },
+          { text: '40 challenging follow-ups', link: '/guides/gke/follow-ups' }
         ] }
       ],
       '/guides/': [
