@@ -1,4 +1,4 @@
-# Module 9. 36 Challenging Python and Shell Follow-ups
+# 36 Advanced Technical FAQs: Python and Shell Automation
 
 Each answer explains the contract, trade-off and failure mode. Attempt the question independently before reading the model answer.
 
