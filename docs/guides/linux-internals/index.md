@@ -28,6 +28,10 @@ By the end, you should be able to explain the process and scheduler lifecycle; v
 6. [File descriptors, sockets, epoll and limits](./q6) — FD tables, `EMFILE`, `ENFILE`, TCP states and efficient event loops.
 7. [Full production performance investigation](./q7) — USE/RED, evidence-first triage, resource-specific commands, reversible mitigations.
 
+## Hands-on practice
+
+[Five reproducible Linux systems labs](./labs) — CPU throttling, memory, sockets, durability and incident diagnosis.
+
 ## Interview challenge bank
 
 [35 difficult follow-up questions with complete model answers](./follow-ups)
