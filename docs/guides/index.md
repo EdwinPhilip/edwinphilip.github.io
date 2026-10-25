@@ -18,8 +18,12 @@ Seven in-depth chapters on processes, virtual memory, cgroups and OOM, CPU throt
 
 Twelve in-depth chapters covering Kubernetes control-plane internals, etcd, scheduler, controllers, workload lifecycles, resources and QoS, storage/CSI, autoscaling, RBAC, admission and upgrades; includes [six labs](/guides/kubernetes/labs) and [42 challenging follow-ups](/guides/kubernetes/follow-ups).
 
+### [Terraform Architecture, Internals, AWS and GCP · Module 4](/guides/terraform/)
+
+Twelve in-depth chapters covering Terraform execution, state, modules, AWS/GCP infrastructure, cloud identity, import/refactoring, drift recovery, security and CI/CD. Includes [45 senior follow-ups](/guides/terraform/follow-ups) and [eight labs](/guides/terraform/labs).
+
 ## Planned
 
-Terraform, GCP, GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
+GCP, GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
 
 [About the author](/about)

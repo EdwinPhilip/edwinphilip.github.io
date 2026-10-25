@@ -21,7 +21,8 @@ export default withMermaid(defineConfig({
       { text: 'Knowledge Base', link: '/guides/' },
       { text: 'Networking', link: '/guides/networking/' },
       { text: 'Linux Internals', link: '/guides/linux-internals/' },
-      { text: 'Kubernetes', link: '/guides/kubernetes/' }
+      { text: 'Kubernetes', link: '/guides/kubernetes/' },
+      { text: 'Terraform', link: '/guides/terraform/' }
     ],
     sidebar: {
       '/guides/networking/': [
@@ -70,12 +71,32 @@ export default withMermaid(defineConfig({
           { text: '42 difficult follow-ups', link: '/guides/kubernetes/follow-ups' }
         ] }
       ],
+      '/guides/terraform/': [
+        { text: 'Terraform Architecture, AWS and GCP', link: '/guides/terraform/' },
+        { text: 'Complete Module 4', items: [
+          { text: '1. Terraform fundamentals', link: '/guides/terraform/q1' },
+          { text: '2. Dependency graph and planning', link: '/guides/terraform/q2' },
+          { text: '3. HCL and resource identity', link: '/guides/terraform/q3' },
+          { text: '4. State and remote backends', link: '/guides/terraform/q4' },
+          { text: '5. Modules and providers', link: '/guides/terraform/q5' },
+          { text: '6. Terraform on AWS', link: '/guides/terraform/q6' },
+          { text: '7. Terraform on Google Cloud', link: '/guides/terraform/q7' },
+          { text: '8. Import and refactoring', link: '/guides/terraform/q8' },
+          { text: '9. Drift and recovery', link: '/guides/terraform/q9' },
+          { text: '10. Security, secrets and policy', link: '/guides/terraform/q10' },
+          { text: '11. CI/CD and Atlantis', link: '/guides/terraform/q11' },
+          { text: '12. Enterprise platform design', link: '/guides/terraform/q12' },
+          { text: 'Hands-on labs', link: '/guides/terraform/labs' },
+          { text: '45 difficult follow-ups', link: '/guides/terraform/follow-ups' }
+        ] }
+      ],
       '/guides/': [
         { text: 'Learning Guides', items: [
           { text: 'All guides', link: '/guides/' },
           { text: 'Networking Fundamentals', link: '/guides/networking/' },
           { text: 'Linux Internals', link: '/guides/linux-internals/' },
-          { text: 'Kubernetes Architecture', link: '/guides/kubernetes/' }
+          { text: 'Kubernetes Architecture', link: '/guides/kubernetes/' },
+          { text: 'Terraform Architecture', link: '/guides/terraform/' }
         ] }
       ]
     },
