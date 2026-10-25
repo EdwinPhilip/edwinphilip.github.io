@@ -46,6 +46,7 @@ export default withMermaid(defineConfig({
           { text: '5. Storage & durability', link: '/guides/linux-internals/q5' },
           { text: '6. File descriptors & epoll', link: '/guides/linux-internals/q6' },
           { text: '7. Incident investigation', link: '/guides/linux-internals/q7' },
+          { text: 'Hands-on labs', link: '/guides/linux-internals/labs' },
           { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' }
         ] }
       ],
