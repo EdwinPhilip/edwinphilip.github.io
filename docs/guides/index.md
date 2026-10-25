@@ -26,8 +26,12 @@ Twelve in-depth chapters covering Terraform execution, state, modules, AWS/GCP i
 
 Eight comprehensive chapters covering GCP hierarchy, identity and federation, Shared VPC, NAT/DNS/load balancing, Compute Engine, storage/data, observability, and high-availability architecture. Includes [eight practical labs](/guides/gcp/labs) and [40 senior follow-ups](/guides/gcp/follow-ups).
 
+### [GKE Architecture, Networking and Production Operations · Module 6](/guides/gke/)
+
+Eight in-depth chapters on GKE control plane, Standard/Autopilot, node scheduling, VPC-native networking/eBPF, Ingress/Gateway/NEGs, workload identity, CSI, autoscaling, upgrades and incident recovery. Includes [eight labs](/guides/gke/labs) and [40 difficult follow-ups](/guides/gke/follow-ups).
+
 ## Planned
 
-GKE operations, reliability, CI/CD and platform engineering, and Python data processing.
+Reliability, CI/CD and platform engineering, and Python data processing.
 
 [About the author](/about)
