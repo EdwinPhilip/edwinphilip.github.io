@@ -17,130 +17,145 @@ export default withMermaid(defineConfig({
     siteTitle: 'Edwin Philip',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About & Experience', link: '/about' },
-      { text: 'Knowledge Base', link: '/guides/' },
-      { text: 'Networking', link: '/guides/networking/' },
-      { text: 'Linux Internals', link: '/guides/linux-internals/' },
-      { text: 'Kubernetes', link: '/guides/kubernetes/' },
-      { text: 'Terraform', link: '/guides/terraform/' },
-      { text: 'GCP Fundamentals', link: '/guides/gcp/' },
-          { text: 'GKE Architecture', link: '/guides/gke/' },
-      { text: 'GKE Operations', link: '/guides/gke/' }
+      { text: 'About me', link: '/about' },
+      { text: 'GitHub', link: 'https://github.com/EdwinPhilip' },
+      { text: 'LinkedIn', link: 'https://www.linkedin.com/in/edwin-philip-sudo/' }
     ],
     sidebar: {
-      '/guides/networking/': [
-        { text: 'Networking Fundamentals', link: '/guides/networking/' },
-        { text: 'Complete Module 1', items: [
-          { text: '1. HTTPS request lifecycle', link: '/guides/networking/q1' },
-          { text: '2. TCP fundamentals', link: '/guides/networking/q2' },
-          { text: '3. DNS internals', link: '/guides/networking/q3' },
-          { text: '4. TLS and PKI', link: '/guides/networking/q4' },
-          { text: '5. Load balancers and proxies', link: '/guides/networking/q5' },
-          { text: '6. CIDR, routing and NAT', link: '/guides/networking/q6' },
-          { text: '7. Kubernetes and GKE networking', link: '/guides/networking/q7' },
-          { text: '8. Production troubleshooting', link: '/guides/networking/q8' },
-        ] }
-      ],
-      '/guides/linux-internals/': [
-        { text: 'Linux Internals', link: '/guides/linux-internals/' },
-        { text: 'Complete Module 2', items: [
-          { text: '1. Processes & scheduling', link: '/guides/linux-internals/q1' },
-          { text: '2. Virtual memory', link: '/guides/linux-internals/q2' },
-          { text: '3. Cgroups & OOM', link: '/guides/linux-internals/q3' },
-          { text: '4. CPU quotas & PSI', link: '/guides/linux-internals/q4' },
-          { text: '5. Storage & durability', link: '/guides/linux-internals/q5' },
-          { text: '6. File descriptors & epoll', link: '/guides/linux-internals/q6' },
-          { text: '7. Incident investigation', link: '/guides/linux-internals/q7' },
-          { text: 'Hands-on labs', link: '/guides/linux-internals/labs' },
-          { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' }
-        ] }
-      ],
-      '/guides/kubernetes/': [
-        { text: 'Kubernetes Architecture & Operations', link: '/guides/kubernetes/' },
-        { text: 'Complete Module 3', items: [
-          { text: '1. Architecture', link: '/guides/kubernetes/q1' },
-          { text: '2. Deployment lifecycle', link: '/guides/kubernetes/q2' },
-          { text: '3. etcd and Raft', link: '/guides/kubernetes/q3' },
-          { text: '4. Controllers and operators', link: '/guides/kubernetes/q4' },
-          { text: '5. Scheduler', link: '/guides/kubernetes/q5' },
-          { text: '6. Workload controllers', link: '/guides/kubernetes/q6' },
-          { text: '7. Resources and QoS', link: '/guides/kubernetes/q7' },
-          { text: '8. Probes and lifecycle', link: '/guides/kubernetes/q8' },
-          { text: '9. CSI and storage', link: '/guides/kubernetes/q9' },
-          { text: '10. Autoscaling', link: '/guides/kubernetes/q10' },
-          { text: '11. Security and admission', link: '/guides/kubernetes/q11' },
-          { text: '12. Upgrades and troubleshooting', link: '/guides/kubernetes/q12' },
-          { text: 'Hands-on labs', link: '/guides/kubernetes/labs' },
-          { text: '42 difficult follow-ups', link: '/guides/kubernetes/follow-ups' }
-        ] }
-      ],
-      '/guides/terraform/': [
-        { text: 'Terraform Architecture, AWS and GCP', link: '/guides/terraform/' },
-        { text: 'Complete Module 4', items: [
-          { text: '1. Terraform fundamentals', link: '/guides/terraform/q1' },
-          { text: '2. Dependency graph and planning', link: '/guides/terraform/q2' },
-          { text: '3. HCL and resource identity', link: '/guides/terraform/q3' },
-          { text: '4. State and remote backends', link: '/guides/terraform/q4' },
-          { text: '5. Modules and providers', link: '/guides/terraform/q5' },
-          { text: '6. Terraform on AWS', link: '/guides/terraform/q6' },
-          { text: '7. Terraform on Google Cloud', link: '/guides/terraform/q7' },
-          { text: '8. Import and refactoring', link: '/guides/terraform/q8' },
-          { text: '9. Drift and recovery', link: '/guides/terraform/q9' },
-          { text: '10. Security, secrets and policy', link: '/guides/terraform/q10' },
-          { text: '11. CI/CD and Atlantis', link: '/guides/terraform/q11' },
-          { text: '12. Enterprise platform design', link: '/guides/terraform/q12' },
-          { text: 'Hands-on labs', link: '/guides/terraform/labs' },
-          { text: '45 difficult follow-ups', link: '/guides/terraform/follow-ups' }
-        ] }
-      ],
-      '/guides/gcp/': [
-        { text: 'GCP Fundamentals and Production Engineering', link: '/guides/gcp/' },
-        { text: 'Complete Module 5', items: [
-          { text: '1. Resource hierarchy', link: '/guides/gcp/q1' },
-          { text: '2. IAM and workload identity', link: '/guides/gcp/q2' },
-          { text: '3. VPC, Shared VPC and firewall', link: '/guides/gcp/q3' },
-          { text: '4. NAT, DNS and load balancing', link: '/guides/gcp/q4' },
-          { text: '5. Compute Engine and MIGs', link: '/guides/gcp/q5' },
-          { text: '6. Storage, artifacts and data', link: '/guides/gcp/q6' },
-          { text: '7. Observability and SLOs', link: '/guides/gcp/q7' },
-          { text: '8. Architecture and recovery', link: '/guides/gcp/q8' },
-          { text: 'Hands-on labs', link: '/guides/gcp/labs' },
-          { text: '40 challenging follow-ups', link: '/guides/gcp/follow-ups' }
-        ] }
-      ],
-      '/guides/gke/': [
-        { text: 'GKE Architecture & Production Operations', link: '/guides/gke/' },
-        { text: 'Complete Module 6', items: [
-          { text: '1. Architecture and control plane', link: '/guides/gke/q1' },
-          { text: '2. Node pools and scheduling', link: '/guides/gke/q2' },
-          { text: '3. VPC-native networking', link: '/guides/gke/q3' },
-          { text: '4. Ingress, Gateway and NEGs', link: '/guides/gke/q4' },
-          { text: '5. Security and workload identity', link: '/guides/gke/q5' },
-          { text: '6. CSI storage and StatefulSets', link: '/guides/gke/q6' },
-          { text: '7. Autoscaling and QoS', link: '/guides/gke/q7' },
-          { text: '8. Upgrades and incidents', link: '/guides/gke/q8' },
-          { text: 'Hands-on labs', link: '/guides/gke/labs' },
-          { text: '40 challenging follow-ups', link: '/guides/gke/follow-ups' }
-        ] }
-      ],
       '/guides/': [
-        { text: 'Learning Guides', items: [
-          { text: 'All guides', link: '/guides/' },
-          { text: 'Networking Fundamentals', link: '/guides/networking/' },
-          { text: 'Linux Internals', link: '/guides/linux-internals/' },
-          { text: 'Kubernetes Architecture', link: '/guides/kubernetes/' },
-          { text: 'Terraform Architecture', link: '/guides/terraform/' },
-          { text: 'GCP Fundamentals', link: '/guides/gcp/' }
-        ] }
+        { text: 'Getting Started', collapsed: false, items: [
+          { text: 'Knowledge Base', link: '/guides/' }
+        ] },
+        { text: 'Module 1 · Networking Fundamentals', link: '/guides/networking/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/networking/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. HTTPS request lifecycle', link: '/guides/networking/q1' },
+            { text: '2. TCP fundamentals', link: '/guides/networking/q2' },
+            { text: '3. DNS internals', link: '/guides/networking/q3' },
+            { text: '4. TLS and PKI', link: '/guides/networking/q4' },
+            { text: '5. Load balancers and proxies', link: '/guides/networking/q5' },
+            { text: '6. CIDR, routing and NAT', link: '/guides/networking/q6' },
+            { text: '7. Kubernetes and GKE networking', link: '/guides/networking/q7' },
+            { text: '8. Production troubleshooting', link: '/guides/networking/q8' },
+          ] },
+        ] },
+        { text: 'Module 2 · Linux Internals', link: '/guides/linux-internals/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/linux-internals/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Processes & scheduling', link: '/guides/linux-internals/q1' },
+            { text: '2. Virtual memory', link: '/guides/linux-internals/q2' },
+            { text: '3. Cgroups & OOM', link: '/guides/linux-internals/q3' },
+            { text: '4. CPU quotas & PSI', link: '/guides/linux-internals/q4' },
+            { text: '5. Storage & durability', link: '/guides/linux-internals/q5' },
+            { text: '6. File descriptors & epoll', link: '/guides/linux-internals/q6' },
+            { text: '7. Incident investigation', link: '/guides/linux-internals/q7' },
+          ] },
+          { text: 'Hands-on labs', link: '/guides/linux-internals/labs' },
+          { text: '35 difficult follow-ups', link: '/guides/linux-internals/follow-ups' },
+        ] },
+        { text: 'Module 3 · Kubernetes Architecture', link: '/guides/kubernetes/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/kubernetes/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Architecture', link: '/guides/kubernetes/q1' },
+            { text: '2. Deployment lifecycle', link: '/guides/kubernetes/q2' },
+            { text: '3. etcd and Raft', link: '/guides/kubernetes/q3' },
+            { text: '4. Controllers and operators', link: '/guides/kubernetes/q4' },
+            { text: '5. Scheduler', link: '/guides/kubernetes/q5' },
+            { text: '6. Workload controllers', link: '/guides/kubernetes/q6' },
+            { text: '7. Resources and QoS', link: '/guides/kubernetes/q7' },
+            { text: '8. Probes and lifecycle', link: '/guides/kubernetes/q8' },
+            { text: '9. CSI and storage', link: '/guides/kubernetes/q9' },
+            { text: '10. Autoscaling', link: '/guides/kubernetes/q10' },
+            { text: '11. Security and admission', link: '/guides/kubernetes/q11' },
+            { text: '12. Upgrades and troubleshooting', link: '/guides/kubernetes/q12' },
+          ] },
+          { text: 'Hands-on labs', link: '/guides/kubernetes/labs' },
+          { text: '42 difficult follow-ups', link: '/guides/kubernetes/follow-ups' },
+        ] },
+        { text: 'Module 4 · Terraform', link: '/guides/terraform/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/terraform/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Terraform fundamentals', link: '/guides/terraform/q1' },
+            { text: '2. Dependency graph and planning', link: '/guides/terraform/q2' },
+            { text: '3. HCL and resource identity', link: '/guides/terraform/q3' },
+            { text: '4. State and remote backends', link: '/guides/terraform/q4' },
+            { text: '5. Modules and providers', link: '/guides/terraform/q5' },
+            { text: '6. Terraform on AWS', link: '/guides/terraform/q6' },
+            { text: '7. Terraform on Google Cloud', link: '/guides/terraform/q7' },
+            { text: '8. Import and refactoring', link: '/guides/terraform/q8' },
+            { text: '9. Drift and recovery', link: '/guides/terraform/q9' },
+            { text: '10. Security, secrets and policy', link: '/guides/terraform/q10' },
+            { text: '11. CI/CD and Atlantis', link: '/guides/terraform/q11' },
+            { text: '12. Enterprise platform design', link: '/guides/terraform/q12' },
+          ] },
+          { text: 'Hands-on labs', link: '/guides/terraform/labs' },
+          { text: '45 difficult follow-ups', link: '/guides/terraform/follow-ups' },
+        ] },
+        { text: 'Module 5 · Google Cloud', link: '/guides/gcp/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/gcp/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Resource hierarchy', link: '/guides/gcp/q1' },
+            { text: '2. IAM and workload identity', link: '/guides/gcp/q2' },
+            { text: '3. VPC, Shared VPC and firewall', link: '/guides/gcp/q3' },
+            { text: '4. NAT, DNS and load balancing', link: '/guides/gcp/q4' },
+            { text: '5. Compute Engine and MIGs', link: '/guides/gcp/q5' },
+            { text: '6. Storage, artifacts and data', link: '/guides/gcp/q6' },
+            { text: '7. Observability and SLOs', link: '/guides/gcp/q7' },
+            { text: '8. Architecture and recovery', link: '/guides/gcp/q8' },
+          ] },
+          { text: 'Hands-on labs', link: '/guides/gcp/labs' },
+          { text: '40 challenging follow-ups', link: '/guides/gcp/follow-ups' },
+        ] },
+        { text: 'Module 6 · GKE Operations', link: '/guides/gke/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/gke/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Architecture and control plane', link: '/guides/gke/q1' },
+            { text: '2. Node pools and scheduling', link: '/guides/gke/q2' },
+            { text: '3. VPC-native networking', link: '/guides/gke/q3' },
+            { text: '4. Ingress, Gateway and NEGs', link: '/guides/gke/q4' },
+            { text: '5. Security and workload identity', link: '/guides/gke/q5' },
+            { text: '6. CSI storage and StatefulSets', link: '/guides/gke/q6' },
+            { text: '7. Autoscaling and QoS', link: '/guides/gke/q7' },
+            { text: '8. Upgrades and incidents', link: '/guides/gke/q8' },
+          ] },
+          { text: 'Hands-on labs', link: '/guides/gke/labs' },
+          { text: '40 challenging follow-ups', link: '/guides/gke/follow-ups' },
+        ] },
+        { text: 'Module 7 · Cloud Reliability', link: '/guides/reliability/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/reliability/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. SLIs, SLOs and error budgets', link: '/guides/reliability/q1' },
+            { text: '2. High availability and zones', link: '/guides/reliability/q2' },
+            { text: '3. Backpressure and retries', link: '/guides/reliability/q3' },
+            { text: '4. Transaction correctness', link: '/guides/reliability/q4' },
+            { text: '5. Multi-region and disaster recovery', link: '/guides/reliability/q5' },
+            { text: '6. Peak capacity and load testing', link: '/guides/reliability/q6' },
+            { text: '7. Cache and data resilience', link: '/guides/reliability/q7' },
+            { text: '8. Incident command and game days', link: '/guides/reliability/q8' },
+          ] },
+          { text: 'Seven hands-on labs', link: '/guides/reliability/labs' },
+          { text: '40 difficult follow-ups', link: '/guides/reliability/follow-ups' },
+        ] },
+        { text: 'Module 8 · Platform Engineering', link: '/guides/platform-engineering/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/platform-engineering/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. CI/CD and trusted builds', link: '/guides/platform-engineering/q1' },
+            { text: '2. GitOps and Argo CD', link: '/guides/platform-engineering/q2' },
+            { text: '3. Progressive delivery', link: '/guides/platform-engineering/q3' },
+            { text: '4. Supply-chain security', link: '/guides/platform-engineering/q4' },
+            { text: '5. Identities and secrets', link: '/guides/platform-engineering/q5' },
+            { text: '6. Developer platforms', link: '/guides/platform-engineering/q6' },
+            { text: '7. Platform observability', link: '/guides/platform-engineering/q7' },
+            { text: '8. Multi-cluster governance', link: '/guides/platform-engineering/q8' },
+          ] },
+          { text: 'Eight hands-on labs', link: '/guides/platform-engineering/labs' },
+          { text: '40 difficult follow-ups', link: '/guides/platform-engineering/follow-ups' },
+        ] },
       ]
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/EdwinPhilip' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/edwin-philip-sudo/' }
-    ],
     search: { provider: 'local' },
     footer: { message: 'Practical engineering knowledge, openly shared.', copyright: '© 2026 Edwin Philip' },
     editLink: { pattern: 'https://github.com/EdwinPhilip/EdwinPhilip.github.io/edit/main/docs/:path', text: 'Suggest an improvement' },
-    outline: { level: [2, 3] }
+    outline: { level: [2, 3], label: 'On this page' }
   }
 }))
