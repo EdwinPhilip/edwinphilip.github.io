@@ -4,10 +4,10 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   title: 'Edwin Philip',
   description: 'Engineering leadership, platform engineering and public learning notes',
-  base: '/knowledge-base/',
+  base: '/',
   cleanUrls: true,
   lastUpdated: true,
-  sitemap: { hostname: 'https://edwinphilip.github.io/knowledge-base/' },
+  sitemap: { hostname: 'https://edwinphilip.github.io/' },
   head: [
     ['meta', { name: 'theme-color', content: '#0c766f' }],
     ['meta', { name: 'author', content: 'Edwin Philip' }]
@@ -106,7 +106,7 @@ export default withMermaid(defineConfig({
     ],
     search: { provider: 'local' },
     footer: { message: 'Practical engineering knowledge, openly shared.', copyright: '© 2026 Edwin Philip' },
-    editLink: { pattern: 'https://github.com/EdwinPhilip/knowledge-base/edit/main/docs/:path', text: 'Suggest an improvement' },
+    editLink: { pattern: 'https://github.com/EdwinPhilip/EdwinPhilip.github.io/edit/main/docs/:path', text: 'Suggest an improvement' },
     outline: { level: [2, 3] }
   }
 }))
