@@ -182,6 +182,23 @@ export default withMermaid(defineConfig({
           { text: 'Eight hands-on labs', link: '/guides/ai-assisted-engineering/labs' },
           { text: '40 advanced FAQs', link: '/guides/ai-assisted-engineering/follow-ups' },
         ] },
+        { text: 'Module 11 · Jenkins Operations', link: '/guides/jenkins/', collapsed: true, items: [
+          { text: 'Overview', link: '/guides/jenkins/' },
+          { text: 'Chapters', collapsed: false, items: [
+            { text: '1. Controller, agents and queue', link: '/guides/jenkins/q1' },
+            { text: '2. Pipeline and CPS execution', link: '/guides/jenkins/q2' },
+            { text: '3. Multibranch and SCM security', link: '/guides/jenkins/q3' },
+            { text: '4. Kubernetes ephemeral agents', link: '/guides/jenkins/q4' },
+            { text: '5. Docker builds and caching', link: '/guides/jenkins/q5' },
+            { text: '6. Shared Libraries', link: '/guides/jenkins/q6' },
+            { text: '7. Credentials and trust boundaries', link: '/guides/jenkins/q7' },
+            { text: '8. Backups, JCasC and upgrades', link: '/guides/jenkins/q8' },
+            { text: '9. Production troubleshooting', link: '/guides/jenkins/q9' },
+            { text: '10. Jenkins platform governance', link: '/guides/jenkins/q10' },
+          ] },
+          { text: 'Eight hands-on labs', link: '/guides/jenkins/labs' },
+          { text: '47 advanced FAQs', link: '/guides/jenkins/follow-ups' },
+        ] },
       ]
     },
     search: { provider: 'local' },
