@@ -38,8 +38,16 @@ Eight in-depth chapters covering SLIs/SLOs, high availability, failure domains, 
 
 Eight chapters on trusted builds, GitOps reconciliation, progressive delivery, supply-chain security, federated identity, internal developer platforms, observability and multi-cluster governance. Includes [40 advanced FAQs](/guides/platform-engineering/follow-ups) and [eight hands-on labs](/guides/platform-engineering/labs).
 
-## Planned
+### [Python and Shell Automation · Module 9](/guides/python-automation/)
 
-Module 9: Python coding and data processing.
+Six consolidated chapters covering Python collections, JSON/log/CSV parsing, UTC time windows, safe API pagination, testable command-line tools and practical Bash/`jq`/`awk` processing. Includes [six labs](/guides/python-automation/labs) and [36 advanced FAQs](/guides/python-automation/follow-ups).
+
+### [AI-Assisted Engineering: ADE and Plan–Build–Review · Module 10](/guides/ai-assisted-engineering/)
+
+Eight in-depth chapters on interpreting coding requirements, planning, bounded agent changes, independent verification, multi-file engineering and evidence-based handoffs. Includes [eight labs](/guides/ai-assisted-engineering/labs) and [40 advanced FAQs](/guides/ai-assisted-engineering/follow-ups).
+
+## Learning path
+
+Modules 1–10 cover networking, Linux, Kubernetes, infrastructure as code, cloud platforms, reliability, platform engineering, automation and responsible AI-assisted development.
 
 [About the author](/about)
