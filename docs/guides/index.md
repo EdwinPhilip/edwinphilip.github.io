@@ -30,8 +30,16 @@ Eight comprehensive chapters covering GCP hierarchy, identity and federation, Sh
 
 Eight in-depth chapters on GKE control plane, Standard/Autopilot, node scheduling, VPC-native networking/eBPF, Ingress/Gateway/NEGs, workload identity, CSI, autoscaling, upgrades and incident recovery. Includes [eight labs](/guides/gke/labs) and [40 difficult follow-ups](/guides/gke/follow-ups).
 
+### [Cloud Architecture, Reliability & System Design · Module 7](/guides/reliability/)
+
+Eight in-depth chapters covering SLIs/SLOs, high availability, failure domains, backpressure, durable transaction correctness, multi-region disaster recovery, capacity, data-layer resilience and incident leadership. Includes [40 difficult follow-ups](/guides/reliability/follow-ups) and [seven hands-on labs](/guides/reliability/labs).
+
+### [CI/CD, GitOps & Platform Engineering · Module 8](/guides/platform-engineering/)
+
+Eight chapters on trusted builds, GitOps reconciliation, progressive delivery, supply-chain security, federated identity, internal developer platforms, observability and multi-cluster governance. Includes [40 difficult follow-ups](/guides/platform-engineering/follow-ups) and [eight hands-on labs](/guides/platform-engineering/labs).
+
 ## Planned
 
-Reliability, CI/CD and platform engineering, and Python data processing.
+Module 9: Python coding and data processing.
 
 [About the author](/about)
